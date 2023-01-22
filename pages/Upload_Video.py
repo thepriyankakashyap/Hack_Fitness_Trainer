@@ -19,9 +19,7 @@ from thresholds import get_thresholds_beginner, get_thresholds_pro
 st.title('Hack Fitness Trainer')
 st.header('Squats Analysis')
 
-# mode = st.radio('Select Mode', ['Beginner', 'Pro'], horizontal=True)
 mode = 'Beginner'
-
 
 thresholds = None 
 
